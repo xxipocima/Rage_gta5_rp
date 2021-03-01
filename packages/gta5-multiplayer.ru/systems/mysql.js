@@ -9,8 +9,8 @@ var mysql2 = require('mysql');
 mysql.connection = mysql2.createConnection({
 	host            : 'localhost',
 	user            : 'root',
-	password        : '',
-	database        : 'gta5-multiplayer.ru'
+	password        : 'root',
+	database        : 'gtaRage'
 });
 
 mysql.connection.connect(function(err) {

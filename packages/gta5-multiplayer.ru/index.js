@@ -83,8 +83,8 @@ global.pool  = mysql.createPool({
 	  waitForConnections: false, // подключение к БД
 	  host            : 'localhost',
 	  user            : 'root',
-	  password        : '',
-	  database        : 'gta5-multiplayer.ru'
+	  password        : 'root',
+	  database        : 'gtaRage'
 });
 
 global.pool.on('acquire', function (connection) {
