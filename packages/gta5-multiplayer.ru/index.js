@@ -81,7 +81,7 @@ require('./plugins/discord.js');
 global.pool  = mysql.createPool({
 	  connectionLimit : 10,
 	  waitForConnections: false, // подключение к БД
-	  host            : '127.0.0.1',
+	  host            : 'localhost',
 	  user            : 'root',
 	  password        : 'root',
 	  database        : 'gtaRage'

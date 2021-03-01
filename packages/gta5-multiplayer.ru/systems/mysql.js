@@ -7,7 +7,7 @@ console.log('Prepare mysql connect to base...');
 var mysql2 = require('mysql');
 
 mysql.connection = mysql2.createConnection({
-	host            : '127.0.0.1',
+	host            : 'localhost',
 	user            : 'root',
 	password        : 'root',
 	database        : 'gtaRage'
