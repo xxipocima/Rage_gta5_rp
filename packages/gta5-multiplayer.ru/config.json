@@ -1,0 +1,9 @@
+{
+  "":"Set advert repeat interval in seconds",
+  "interval": 60,
+  "":"Add adverts down below",
+  "adverts": [
+    "Хочешь создай свой сервер на RAGE Multiplayer?",
+	"Готовые сервера, скрипты, модели, плагины, маппинг"
+  ]
+}
